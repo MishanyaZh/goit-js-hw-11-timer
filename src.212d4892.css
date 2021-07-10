@@ -1,0 +1,2 @@
+html{height:100%}body{display:flex;flex-direction:column;justify-content:center;align-items:center;background:#8ecf7a}*,:after,:before{box-sizing:border-box}#timer-1{display:flex;text-align:center;margin:150px auto}.field{display:flex;flex-direction:column-reverse;margin:0 5px}.value{display:flex;align-items:center;justify-content:center;height:150px;width:180px;font-size:150px;background-color:#d4c4c4;color:#17d620;border:2px solid #2f0cca}.label{font-size:40px;color:#13073b;text-transform:uppercase}
+/*# sourceMappingURL=/goit-js-hw-11-timer/src.212d4892.css.map */
