@@ -35,7 +35,8 @@ class CountdownTimer {
         const mins = this.pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
         const secs = this.pad(Math.floor((time % (1000 * 60)) / 1000));
 
-        const timerRef = document.querySelector('#timer-1');
+        const timerRef = document.querySelector(this.selector);
+        // const timerRef = document.querySelector('#timer-1');
         const daysRef = timerRef.querySelector('[data-value="days"]');
         const hoursRef = timerRef.querySelector('[data-value="hours"]');
         const minsRef = timerRef.querySelector('[data-value="mins"]');
@@ -53,11 +54,9 @@ class CountdownTimer {
 
 }
 
-
 const  newCountdownTimer = new CountdownTimer({
     selector: '#timer-1',
     targetDate: new Date('Jul 13, 2021'),
 });
 
 newCountdownTimer.start();
-
